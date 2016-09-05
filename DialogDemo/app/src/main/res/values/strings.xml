@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Country_List">
+        <item>INDIA</item>
+        <item>AMERICA</item>
+        <item>IRAN</item>
+        <item>IRAQ</item>
+        <item>CHINA</item>
+    </string-array>
+    <string-array name="FRUIT_LIST">
+        <item>MANGO</item>
+        <item>APPLE</item>
+        <item>BANANA</item>
+        <item>POMOGRENATE</item>
+        <item>GRAPES</item>
+    </string-array>
+</resources>
