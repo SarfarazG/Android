@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SARFARAZ is..." />
+
+    <RadioGroup
+        android:id="@+id/rgAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rcrazy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="crazy" />
+
+        <RadioButton
+            android:id="@+id/rsexy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexy" />
+
+        <RadioButton
+            android:id="@+id/rboth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="both" />
+    </RadioGroup>
+
+    <Button 
+         android:id="@+id/bReturn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Return"
+       
+        />
+    <TextView
+        android:id="@+id/tvtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview" />
+
+</LinearLayout>

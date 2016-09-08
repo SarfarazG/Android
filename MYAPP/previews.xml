@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.example.myapp.MainActivity"
+        config="layout-ldltr-sw320dp-w320dp-h533dp-normal-notround-port-notnight-hdpi-finger-keyssoft-nokeys-navexposed-trackball-800x480-v22"
+        device="3.7&quot; WVGA (Nexus One)"
+        devicestate="Portrait"
+        target="Android 5.1.1"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

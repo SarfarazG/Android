@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tdisplay"
+        android:layout_width="202dp"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_gravity="center"
+        android:gravity="center"
+         />
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center">
+    <Button 
+        android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:layout_gravity="center"  
+		android:id="@+id/bzehra"	
+		android:text="ZEHRA"
+        />
+
+      <Button
+          android:id="@+id/bzainab"
+          android:layout_width="251dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textColor="@android:color/black"
+          android:textSize="20dp"
+          android:text="ZAINAB"
+          
+           />
+
+      <Button
+          android:id="@+id/bsakina"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+ 		  android:layout_gravity="center"
+  		  android:textColor="@android:color/black"
+          android:textSize="20dp"
+          android:text="SAKINA"
+          
+           />
+   </LinearLayout>
+</LinearLayout>
+
