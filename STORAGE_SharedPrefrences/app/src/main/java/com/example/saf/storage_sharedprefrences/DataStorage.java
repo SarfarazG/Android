@@ -59,10 +59,5 @@ public class DataStorage {
 
         return temp;
     }
-    public String ReadFromInternalStorage() {
-
-
-        return null;
-    }
-
+  
 }
