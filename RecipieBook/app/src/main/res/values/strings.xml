@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecipieBook</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ItemList">
+        <item>Pav Bhaji</item>
+        <item>Samosa</item>
+        <item>Pani Puri</item>
+        <item>Paneer</item>
+        <item>Ice creme</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:id="@+id/mylayout"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RECIPIE"
+            android:textSize="30sp"
+            android:id="@+id/lblrecipie"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+    <ScrollView
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Recipie content "
+            android:id="@+id/lblreceipeContent"
+            android:layout_marginTop="10dp"
+            android:background="#80FFFFFF"
+            />
+    </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/btnback"
+            />
+    </LinearLayout>
+
